@@ -11,7 +11,7 @@
  d) Moreover, MySQL also uses the Red-Black tree for indexes on tables.
 
 
-#Question 2: Kruskal's Minimum Spanning Tree
+# Question 2: Kruskal's Minimum Spanning Tree
   Complexity Analysis:
   Best Case:O(N logE) 
   Worst Case:O(ElogE) or O(ElogV)
@@ -23,8 +23,8 @@
   c) Cluster Analysis
  
  
- #Question 3: 
- ##Bubble
+# Question 3: 
+ ## Bubble
   Complexity:
  a) Worst and Average Case Time Complexity: O(n*n). Worst case occurs when array is reverse sorted.
  b) Best Case Time Complexity: O(n). Best case occurs when array is already sorted.
@@ -32,7 +32,7 @@
  a)Due to its simplicity, bubble sort is often used to introduce the concept of a sorting algorithm.
  b)In computer graphics it is popular for its capability to detect a very small error (like swap of just two elements) in almost-sorted arrays and fix it with just linear complexity (2n). 
  
- ##Selection
+ ## Selection
  Complexity:
  O(n^2) as there are two nested loops in all cases.
  Application:
@@ -41,7 +41,7 @@
  c)While selection sort is preferable to insertion sort in terms of number of writes (Θ(n) swaps versus Ο(n^2) swaps).
  d)This can be important if writes are significantly more expensive than reads, such as with EEPROM or Flash memory, where every write lessens the lifespan of the memory.
  
- ##Insertion
+ ## Insertion
  Complexity:
  Worst case time complexity: Θ(N^2) comparisons and swaps
  Average case time complexity: Θ(N^2) comparisons and swaps
@@ -51,7 +51,7 @@
  b)A variant named binary merge sort uses a binary insertion sort to sort groups of 32 elements, followed by a final sort using merge sort.
  c)If a skip list is used, the insertion time is brought down to O(log n), and swaps are not needed because the skip list is implemented on a linked list structure. The final running time for insertion would be O(n log n).
  
- ##Merge
+ ## Merge
  Complexity:
  Worst case time complexity: Θ(N log N)
  Average case time complexity: Θ(N log N)
@@ -63,7 +63,7 @@
   c)Merge sort is used for counting inversions in a list
   d)Merge sort is used in external sorting
   
-  ##Quick 
+ ## Quick 
   Complexity:
   Worst case time complexity: Θ(N^2)
   Average case time complexity: Θ(N log N)
