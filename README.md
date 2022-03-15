@@ -1,5 +1,5 @@
-## Python Developer Assignment
-# Approach
+# Python Developer Assignment
+## Approach
 So there was 3 different level of webpages.
 1. Main A-Z Content List
 2. Specific Case Sensitive Alphabet Content List
@@ -11,7 +11,7 @@ The program would take a input n from user as in how many sites they want to scr
 As I was not familiar with Mongodb and had an emergency at home due to which there was lack of time, So I tried to save the data locally in csv file.
 The code can be reused for similar type of websites just by changing the website in code.
 
-# Possible Future Improvements
+## Possible Future Improvements
 We can take the similar websites as input too from the users which would make it more efficient and reusable.
 We can save the data in mongodb.
 We can find more efficient way of doing the same thing.
